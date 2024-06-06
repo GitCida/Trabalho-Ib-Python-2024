@@ -1,4 +1,2 @@
-n = 1
-while n < 8000:
-    print(n+9)
-    n += 10
+for x in range (0,8001,10):
+    print(x)

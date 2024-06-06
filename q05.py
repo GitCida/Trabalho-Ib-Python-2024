@@ -3,8 +3,6 @@ if (hora >= 0 and hora < 12):
     print("é manhã.")
 elif (hora >= 12 and hora < 18):
     print ("é tarde.")
-elif (hora >= 18 and hora <= 23):
-    print("é noite.")
 else:
-    print("este horário não existe")
+    print("é noite.")
 #0 a 11: manhã / 12 as 17: tarde / 18 as 23: noite
